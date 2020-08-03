@@ -1,0 +1,114 @@
+
+  .card-title {
+    font-size: 14px;
+  }
+  i.fa {
+    color: #ccc;
+    position: relative;
+  }
+  
+  span.fa-counter {
+    position: absolute;
+    color: #fff;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  } 
+  .card img {
+    max-width: 300px;
+    display: block;
+    max-height: 300px;
+  }
+
+  .card {
+    max-width: 300px;
+    display: block;
+    max-height: 300px;
+    height: 600px;
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,0.125);
+  }
+
+    
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptyStore {
+  flex: 1;
+  text-align: center;
+}
+
+.flexAdd {
+  margin-top: 15px;
+	display: flex;
+}
+
+.flexAdd > input {
+	text-align: center;
+  font-size: 1.5em;
+  max-width: 50px;
+  background-color: "#333";
+  border-radius: 10;
+  padding-right: 24;
+  font-size: 16;
+  border-color: 'gray';
+}
+
+.item {
+	margin: 5px;
+	text-align: center;
+  font-size: 1.5em;
+  margin-top: 12px
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.containerItens {
+  max-width: 100%;
+    height: 465px;
+    max-height: 465px;
+}
+
+.name {
+  color: black;
+  font-size: 18px;
+   margin-top: 5px;
+}
+.productValue {
+  color: black;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.viewDetails {
+  color: blue;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.unid {
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.containerMean {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+.containerBlock {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+  max-width: 500px;
+  margin: 15px;
+}
