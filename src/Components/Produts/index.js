@@ -37,8 +37,7 @@ export default function Products({ products }) {
     }
 
     return (
-
-        <section style={{flex: 1, margin: 10, maxWidth: 270, minWidth: 270, border: 'solid', borderColor: '#929eaa'}}>
+        <section style={{flex: 1, margin: 10, maxWidth: 270, minWidth: 250, border: 'solid', borderColor: '#929eaa', borderRadius: 15}}>
             <div className="card-body">
                 <div className="containerItens">
             <img style={{ width:180 }} src={products.url} className="card-img-top" alt={products.name} />
