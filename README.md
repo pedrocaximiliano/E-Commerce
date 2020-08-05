@@ -38,20 +38,14 @@ $ npm install axios;
 
 ícones de aplicativos:
 
-$ npm instala ícones de reação;
+$ npm install react-icons;
 
-react-router-dom:
-
-Usado para rotas / navegação dentro do aplicativo;
+react-router-dom: Usado para rotas / navegação dentro do aplicativo;
 
 $ npm install react-router-dom;
 
 # Construir
 
-instalação do $ yarn
-ou
-Instalação $ npm
-
-$ estrela de fios
+$ yarn start
 ou
 $ npm start
