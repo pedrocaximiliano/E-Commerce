@@ -46,24 +46,23 @@ export default function Add() {
 			<div className="loading">
 				<ReactLoading type={'spinningBubbles'} color={'#ccc'} height={167} width={175} />
 			</div>
-			
 			: (
 		<form className="container mt-5" onSubmit={onSubmit}>
 			<div className="form-group">
 				<label>Nome do Item</label>
-				<input required="required"  onChange={formChange} type="text" name="name" value={form.name} className="form-control" placeholder="Nome..." />
+				<input required="required" onChange={formChange} type="text" name="name" value={form.name} className="form-control" placeholder="Nome..." />
 			</div>
 			<div className="form-group">
 				<label>unidade:</label>
-				<input required="required"  nChange={formChange} type="text" name="unidade" value={form.unity} className="form-control" placeholder="Unidade..." />
+				<input required="required" onChange={formChange} type="text" name="unidade" value={form.unity} className="form-control" placeholder="Unidade..." />
 			</div>
 			<div className="form-group">
 				<label>valor</label>
-				<input  required="required"  onChange={formChange} type="text" name="valor" value={form.value} className="form-control" placeholder="valor..." />
+				<input  required="required" onChange={formChange} type="text" name="valor" value={form.value} className="form-control" placeholder="valor..." />
 			</div>
 			<div className="form-group">
 				<label>imagem (URL):</label>
-				<input required="required"  onChange={formChange} type="text" name="url" value={form.url} className="form-control" placeholder="URL:https://produto" />
+				<input required="required" onChange={formChange} type="text" name="url" value={form.url} className="form-control" placeholder="URL:https://produto" />
 			</div>
 			<button type="submit" className="btn btn-primary">
 				Adicionar item
