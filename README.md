@@ -1,6 +1,8 @@
 # Description
 E-commerce using react web where it is possible to add an item to the shopping cart.
 
+# purpose of this application and show how redux-hooks work
+
 # Libraries used
 axios: Promises-based library for calling HTTP client;
 
